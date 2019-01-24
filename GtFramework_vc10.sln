@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GtFramework", "code\GtFramework\GtFramework.vcxproj", "{E38590E0-7FF4-4FA2-8FAE-C0ABF8E5CB03}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NlGFramework", "code\GtFramework\NlGFramework.vcxproj", "{0BD0DF97-3CEE-4A22-B072-9B60449FB5C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E38590E0-7FF4-4FA2-8FAE-C0ABF8E5CB03}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E38590E0-7FF4-4FA2-8FAE-C0ABF8E5CB03}.Debug|Win32.Build.0 = Debug|Win32
+		{E38590E0-7FF4-4FA2-8FAE-C0ABF8E5CB03}.Release|Win32.ActiveCfg = Release|Win32
+		{E38590E0-7FF4-4FA2-8FAE-C0ABF8E5CB03}.Release|Win32.Build.0 = Release|Win32
+		{0BD0DF97-3CEE-4A22-B072-9B60449FB5C9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0BD0DF97-3CEE-4A22-B072-9B60449FB5C9}.Debug|Win32.Build.0 = Debug|Win32
+		{0BD0DF97-3CEE-4A22-B072-9B60449FB5C9}.Release|Win32.ActiveCfg = Release|Win32
+		{0BD0DF97-3CEE-4A22-B072-9B60449FB5C9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Basket.h" />
+    <ClInclude Include="CameraObject.h" />
+    <ClInclude Include="DoubleModeScene.h" />
+    <ClInclude Include="Ground.h" />
+    <ClInclude Include="GtFile.h" />
+    <ClInclude Include="input.h" />
+    <ClInclude Include="InputManager.h" />
+    <ClInclude Include="Keyboard.h" />
+    <ClInclude Include="Mouse.h" />
+    <ClInclude Include="NlBuffer.h" />
+    <ClInclude Include="NlCloth.h" />
+    <ClInclude Include="NlCollider.h" />
+    <ClInclude Include="NlColliderEvent.h" />
+    <ClInclude Include="NlDebugRenderer.h" />
+    <ClInclude Include="NlGameObjPri.h" />
+    <ClInclude Include="NlGameSceneBase.h" />
+    <ClInclude Include="NlGFramework.h" />
+    <ClInclude Include="NlGameInstanceBase.h" />
+    <ClInclude Include="NlGUIText.h" />
+    <ClInclude Include="NlGUITexture.h" />
+    <ClInclude Include="NlImmGUI.h" />
+    <ClInclude Include="NlJoint.h" />
+    <ClInclude Include="NlMaterial.h" />
+    <ClInclude Include="NlMesh.h" />
+    <ClInclude Include="NlObjMeshLoader.h" />
+    <ClInclude Include="NlPhysicsDevice.h" />
+    <ClInclude Include="NlPxReport.h" />
+    <ClInclude Include="NlPxMaterial.h" />
+    <ClInclude Include="NlPhysicsSimulator.h" />
+    <ClInclude Include="nlPxMathlib.h" />
+    <ClInclude Include="NlPxPicker.h" />
+    <ClInclude Include="NlPxUserData.h" />
+    <ClInclude Include="NlRenderDevice.h" />
+    <ClInclude Include="NlDynamicShaderComb.h" />
+    <ClInclude Include="NlGameEnvironment.h" />
+    <ClInclude Include="NlGameObject.h" />
+    <ClInclude Include="NlRigidBody.h" />
+    <ClInclude Include="NlSkyBox.h" />
+    <ClInclude Include="NlTexture.h" />
+    <ClInclude Include="NlVertexDecl.h" />
+    <ClInclude Include="nl_physics_header.h" />
+    <ClInclude Include="nl_render_header.h" />
+    <ClInclude Include="prerequisite.h" />
+    <ClInclude Include="NlPresenter.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SrObjLoader.h" />
+    <ClInclude Include="stableheader.h" />
+    <ClInclude Include="NlTerrain.h" />
+    <ClInclude Include="NlWater.h" />
+    <ClInclude Include="Stream.h" />
+    <ClInclude Include="PullSticksApp.h" />
+    <ClInclude Include="MainMenu.h" />
+    <ClInclude Include="Stick.h" />
+    <ClInclude Include="SingleModeScene.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Basket.cpp" />
+    <ClCompile Include="CameraObject.cpp" />
+    <ClCompile Include="DoubleModeScene.cpp" />
+    <ClCompile Include="Ground.cpp" />
+    <ClCompile Include="InputManager.cpp" />
+    <ClCompile Include="Keyboard.cpp" />
+    <ClCompile Include="Mouse.cpp" />
+    <ClCompile Include="NlBuffer.cpp" />
+    <ClCompile Include="NlCloth.cpp" />
+    <ClCompile Include="NlCollider.cpp" />
+    <ClCompile Include="NlColliderEvent.cpp" />
+    <ClCompile Include="NlDebugRenderer.cpp" />
+    <ClCompile Include="NlGameInstanceBase.cpp" />
+    <ClCompile Include="NlGameObjPri.cpp" />
+    <ClCompile Include="NlGameSceneBase.cpp" />
+    <ClCompile Include="NlGFramework.cpp" />
+    <ClCompile Include="NlGUIText.cpp" />
+    <ClCompile Include="NlGUITexture.cpp" />
+    <ClCompile Include="NlImmGUI.cpp" />
+    <ClCompile Include="NlJoint.cpp" />
+    <ClCompile Include="NlMaterial.cpp" />
+    <ClCompile Include="NlMesh.cpp" />
+    <ClCompile Include="NlObjMeshLoader.cpp" />
+    <ClCompile Include="NlPhysicsDevice.cpp" />
+    <ClCompile Include="NlPxReport.cpp" />
+    <ClCompile Include="NlPxMaterial.cpp" />
+    <ClCompile Include="NlPhysicsSimulator.cpp" />
+    <ClCompile Include="NlPxPicker.cpp" />
+    <ClCompile Include="NlPxUserData.cpp" />
+    <ClCompile Include="NlRenderDevice.cpp" />
+    <ClCompile Include="NlGameEnvironment.cpp" />
+    <ClCompile Include="NlGameObject.cpp" />
+    <ClCompile Include="NlPresenter.cpp" />
+    <ClCompile Include="NlRigidBody.cpp" />
+    <ClCompile Include="NlSkyBox.cpp" />
+    <ClCompile Include="NlTerrain.cpp" />
+    <ClCompile Include="NlTexture.cpp" />
+    <ClCompile Include="NlVertexDecl.cpp" />
+    <ClCompile Include="NlWater.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="NlDynamicShaderComb.cpp" />
+    <ClCompile Include="SrObjLoader.cpp" />
+    <ClCompile Include="stableheader.cpp" />
+    <ClCompile Include="Stream.cpp" />
+    <ClCompile Include="PullSticksApp.cpp" />
+    <ClCompile Include="MainMenu.cpp" />
+    <ClCompile Include="Stick.cpp" />
+    <ClCompile Include="SingleModeScene.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="NlGameFramework.rc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0BD0DF97-3CEE-4A22-B072-9B60449FB5C9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>GtFramework</RootNamespace>
+    <ProjectName>NlGFramework</ProjectName>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IntDir>$(Configuration)\$(ProjectName)</IntDir>
+    <OutDir>$(SolutionDir)\game\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IntDir>$(Configuration)\$(ProjectName)</IntDir>
+    <OutDir>$(SolutionDir)\game\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)code\GtFramework\physX_2.8_sdk\Foundation\include;$(SolutionDir)code\GtFramework\physX_2.8_sdk\Physics\include;$(SolutionDir)code\GtFramework\physX_2.8_sdk\Cooking\include;$(SolutionDir)code\GtFramework\physX_2.8_sdk\PhysXLoader\include;$(SolutionDir)code\GtFramework\physX_2.8_sdk\NxCharacter\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

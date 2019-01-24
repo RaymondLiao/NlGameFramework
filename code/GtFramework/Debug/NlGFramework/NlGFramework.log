@@ -1,0 +1,241 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(376,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+  Basket.cpp
+c:\portfolio\pullthesticks-final\code\gtframework\nlcloth.h(33): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\portfolio\pullthesticks-final\code\gtframework\basket.cpp(88): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+c:\portfolio\pullthesticks-final\code\gtframework\basket.cpp(111): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+c:\portfolio\pullthesticks-final\code\gtframework\basket.cpp(133): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+  CameraObject.cpp
+c:\portfolio\pullthesticks-final\code\gtframework\cameraobject.cpp(16): warning C4244: 'argument': conversion from 'LONG' to 'const float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\cameraobject.cpp(28): warning C4244: 'argument': conversion from 'LONG' to 'const float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\cameraobject.cpp(77): warning C4244: 'argument': conversion from 'LONG' to 'const float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\cameraobject.cpp(89): warning C4244: 'argument': conversion from 'LONG' to 'const float', possible loss of data
+  DoubleModeScene.cpp
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+c:\portfolio\pullthesticks-final\code\gtframework\nlcloth.h(33): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\portfolio\pullthesticks-final\code\gtframework\doublemodescene.cpp(117): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\doublemodescene.cpp(124): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\doublemodescene.cpp(161): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\doublemodescene.cpp(175): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\doublemodescene.cpp(181): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\doublemodescene.cpp(187): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\doublemodescene.cpp(193): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\doublemodescene.cpp(207): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\doublemodescene.cpp(213): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\doublemodescene.cpp(288): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\doublemodescene.cpp(294): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\doublemodescene.cpp(300): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\doublemodescene.cpp(306): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\doublemodescene.cpp(314): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\doublemodescene.cpp(320): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\doublemodescene.cpp(326): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\doublemodescene.cpp(332): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\doublemodescene.cpp(452): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+c:\portfolio\pullthesticks-final\code\gtframework\doublemodescene.cpp(503): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+c:\portfolio\pullthesticks-final\code\gtframework\doublemodescene.cpp(527): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+c:\portfolio\pullthesticks-final\code\gtframework\doublemodescene.cpp(534): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+c:\portfolio\pullthesticks-final\code\gtframework\doublemodescene.cpp(547): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+c:\portfolio\pullthesticks-final\code\gtframework\doublemodescene.cpp(550): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+c:\portfolio\pullthesticks-final\code\gtframework\doublemodescene.cpp(568): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+  Ground.cpp
+c:\portfolio\pullthesticks-final\code\gtframework\nlcloth.h(33): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\portfolio\pullthesticks-final\code\gtframework\ground.cpp(67): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\ground.cpp(72): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+  InputManager.cpp
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+c:\portfolio\pullthesticks-final\code\gtframework\inputmanager.cpp(2): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\dinput.h(48): note: see previous definition of 'DIRECTINPUT_VERSION'
+  Keyboard.cpp
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  Mouse.cpp
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  NlBuffer.cpp
+  NlCloth.cpp
+c:\portfolio\pullthesticks-final\code\gtframework\nlcloth.h(33): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\portfolio\pullthesticks-final\code\gtframework\nlcloth.cpp(260): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\nlcloth.cpp(261): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  NlCollider.cpp
+c:\portfolio\pullthesticks-final\code\gtframework\nlcloth.h(33): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\portfolio\pullthesticks-final\code\gtframework\nlcollider.cpp(519): warning C4267: '=': conversion from 'size_t' to 'WORD', possible loss of data
+  NlColliderEvent.cpp
+c:\portfolio\pullthesticks-final\code\gtframework\nlcloth.h(33): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\portfolio\pullthesticks-final\code\gtframework\nlcolliderevent.cpp(113): warning C4018: '<': signed/unsigned mismatch
+c:\portfolio\pullthesticks-final\code\gtframework\nlcolliderevent.cpp(149): warning C4018: '<': signed/unsigned mismatch
+  NlDebugRenderer.cpp
+c:\portfolio\pullthesticks-final\code\gtframework\nldebugrenderer.cpp(278): warning C4244: '*=': conversion from 'float' to 'uint32', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\nldebugrenderer.cpp(493): warning C4244: 'argument': conversion from 'double' to 'NxReal', possible loss of data
+  NlGameInstanceBase.cpp
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+c:\portfolio\pullthesticks-final\code\gtframework\nlcloth.h(33): warning C4305: 'argument': truncation from 'double' to 'const float'
+  NlGameObjPri.cpp
+  NlGameSceneBase.cpp
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+c:\portfolio\pullthesticks-final\code\gtframework\nlcloth.h(33): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\portfolio\pullthesticks-final\code\gtframework\nlgamescenebase.cpp(40): warning C4305: 'argument': truncation from 'double' to 'float'
+  NlGFramework.cpp
+c:\portfolio\pullthesticks-final\code\gtframework\nlcloth.h(33): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\portfolio\pullthesticks-final\code\gtframework\nlgframework.cpp(117): warning C4244: 'argument': conversion from 'float' to 'uint32', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\nlgframework.cpp(119): warning C4244: 'argument': conversion from 'float' to 'uint32', possible loss of data
+  NlGUIText.cpp
+c:\portfolio\pullthesticks-final\code\gtframework\nlguitext.cpp(26): warning C4244: '=': conversion from 'float' to 'UINT', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\nlguitext.cpp(27): warning C4244: '=': conversion from 'float' to 'INT', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\nlguitext.cpp(44): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(132): note: see declaration of 'strcpy'
+c:\portfolio\pullthesticks-final\code\gtframework\nlguitext.cpp(48): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(132): note: see declaration of 'strcpy'
+c:\portfolio\pullthesticks-final\code\gtframework\nlguitext.cpp(52): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\nlguitext.cpp(53): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\nlguitext.cpp(86): warning C4018: '>': signed/unsigned mismatch
+c:\portfolio\pullthesticks-final\code\gtframework\nlguitext.cpp(89): warning C4018: '<': signed/unsigned mismatch
+c:\portfolio\pullthesticks-final\code\gtframework\nlguitext.cpp(119): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\nlguitext.cpp(120): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\nlguitext.cpp(121): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\nlguitext.cpp(122): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+  NlGUITexture.cpp
+c:\portfolio\pullthesticks-final\code\gtframework\nlguitexture.cpp(72): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\nlguitexture.cpp(77): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\portfolio\pullthesticks-final\code\gtframework\nlguitexture.cpp(101): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\nlguitexture.cpp(106): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\portfolio\pullthesticks-final\code\gtframework\nlguitexture.cpp(178): warning C4018: '>': signed/unsigned mismatch
+c:\portfolio\pullthesticks-final\code\gtframework\nlguitexture.cpp(188): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\nlguitexture.cpp(193): warning C4305: 'initializing': truncation from 'double' to 'float'
+  NlImmGUI.cpp
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+c:\portfolio\pullthesticks-final\code\gtframework\nlimmgui.cpp(114): warning C4244: '=': conversion from 'float' to 'UINT', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\nlimmgui.cpp(115): warning C4244: '=': conversion from 'float' to 'INT', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\nlimmgui.cpp(118): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(132): note: see declaration of 'strcpy'
+c:\portfolio\pullthesticks-final\code\gtframework\nlimmgui.cpp(145): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\nlimmgui.cpp(146): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\nlimmgui.cpp(147): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\nlimmgui.cpp(148): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\nlimmgui.cpp(182): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\portfolio\pullthesticks-final\code\gtframework\nlimmgui.cpp(220): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\nlimmgui.cpp(221): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\nlimmgui.cpp(222): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\nlimmgui.cpp(223): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\nlimmgui.cpp(257): warning C4305: 'initializing': truncation from 'double' to 'float'
+  NlJoint.cpp
+c:\portfolio\pullthesticks-final\code\gtframework\nlcloth.h(33): warning C4305: 'argument': truncation from 'double' to 'const float'
+  Generating Code...
+  Compiling...
+  NlMaterial.cpp
+  NlMesh.cpp
+  NlObjMeshLoader.cpp
+c:\portfolio\pullthesticks-final\code\gtframework\nlobjmeshloader.cpp(218): warning C4267: '=': conversion from 'size_t' to 'WORD', possible loss of data
+  NlPhysicsDevice.cpp
+c:\portfolio\pullthesticks-final\code\gtframework\nlcloth.h(33): warning C4305: 'argument': truncation from 'double' to 'const float'
+  NlPxReport.cpp
+  NlPxMaterial.cpp
+  NlPhysicsSimulator.cpp
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  NlPxPicker.cpp
+c:\portfolio\pullthesticks-final\code\gtframework\nlpxpicker.cpp(158): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  NlPxUserData.cpp
+  NlRenderDevice.cpp
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+c:\portfolio\pullthesticks-final\code\gtframework\nlrenderdevice.cpp(85): warning C4244: 'argument': conversion from 'uint32' to 'float', possible loss of data
+  NlGameEnvironment.cpp
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  NlGameObject.cpp
+c:\portfolio\pullthesticks-final\code\gtframework\nlcloth.h(33): warning C4305: 'argument': truncation from 'double' to 'const float'
+  NlPresenter.cpp
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+c:\portfolio\pullthesticks-final\code\gtframework\nlpresenter.cpp(15): warning C4101: 'hdc': unreferenced local variable
+c:\portfolio\pullthesticks-final\code\gtframework\nlpresenter.cpp(14): warning C4101: 'ps': unreferenced local variable
+c:\portfolio\pullthesticks-final\code\gtframework\nlpresenter.cpp(13): warning C4101: 'wmEvent': unreferenced local variable
+c:\portfolio\pullthesticks-final\code\gtframework\nlpresenter.cpp(13): warning C4101: 'wmId': unreferenced local variable
+  NlRigidBody.cpp
+c:\portfolio\pullthesticks-final\code\gtframework\nlcloth.h(33): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\portfolio\pullthesticks-final\code\gtframework\nlrigidbody.cpp(387): warning C4267: '=': conversion from 'size_t' to 'uint16', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\nlrigidbody.cpp(404): warning C4267: '=': conversion from 'size_t' to 'uint16', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\nlrigidbody.cpp(421): warning C4267: '=': conversion from 'size_t' to 'uint16', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\nlrigidbody.cpp(437): warning C4267: '=': conversion from 'size_t' to 'uint16', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\nlrigidbody.cpp(454): warning C4267: '=': conversion from 'size_t' to 'uint16', possible loss of data
+  NlSkyBox.cpp
+  NlTerrain.cpp
+c:\portfolio\pullthesticks-final\code\gtframework\nlterrain.cpp(12): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\nlterrain.cpp(100): warning C4244: '=': conversion from 'float' to 'uint8', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\nlterrain.cpp(121): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\nlterrain.cpp(123): warning C4244: '=': conversion from 'float' to 'uint8', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\nlterrain.cpp(124): warning C4244: '=': conversion from 'float' to 'uint8', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\nlterrain.cpp(125): warning C4244: '=': conversion from 'float' to 'uint8', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\nlterrain.cpp(139): warning C4244: '=': conversion from 'double' to 'uint8', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\nlterrain.cpp(140): warning C4244: '=': conversion from 'double' to 'uint8', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\nlterrain.cpp(141): warning C4244: '=': conversion from 'double' to 'uint8', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\nlterrain.cpp(268): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+  NlTexture.cpp
+  NlVertexDecl.cpp
+c:\portfolio\pullthesticks-final\code\gtframework\nlvertexdecl.cpp(80): warning C4838: conversion from 'uint32' to 'WORD' requires a narrowing conversion
+c:\portfolio\pullthesticks-final\code\gtframework\nlvertexdecl.cpp(91): warning C4838: conversion from 'uint32' to 'WORD' requires a narrowing conversion
+c:\portfolio\pullthesticks-final\code\gtframework\nlvertexdecl.cpp(102): warning C4838: conversion from 'uint32' to 'WORD' requires a narrowing conversion
+c:\portfolio\pullthesticks-final\code\gtframework\nlvertexdecl.cpp(113): warning C4838: conversion from 'uint32' to 'WORD' requires a narrowing conversion
+c:\portfolio\pullthesticks-final\code\gtframework\nlvertexdecl.cpp(124): warning C4838: conversion from 'uint32' to 'WORD' requires a narrowing conversion
+  NlWater.cpp
+c:\portfolio\pullthesticks-final\code\gtframework\nlwater.cpp(211): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+  main.cpp
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+c:\portfolio\pullthesticks-final\code\gtframework\nlcloth.h(33): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\portfolio\pullthesticks-final\code\gtframework\main.cpp(33): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  Compiling...
+  NlDynamicShaderComb.cpp
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  SrObjLoader.cpp
+c:\portfolio\pullthesticks-final\code\gtframework\srobjloader.cpp(65): warning C4267: '=': conversion from 'size_t' to 'WORD', possible loss of data
+  stableheader.cpp
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  Stream.cpp
+  PullSticksApp.cpp
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+c:\portfolio\pullthesticks-final\code\gtframework\nlcloth.h(33): warning C4305: 'argument': truncation from 'double' to 'const float'
+  MainMenu.cpp
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+c:\portfolio\pullthesticks-final\code\gtframework\nlcloth.h(33): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\portfolio\pullthesticks-final\code\gtframework\mainmenu.cpp(109): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\mainmenu.cpp(114): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\mainmenu.cpp(119): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\mainmenu.cpp(176): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\mainmenu.cpp(184): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+  Stick.cpp
+c:\portfolio\pullthesticks-final\code\gtframework\nlcloth.h(33): warning C4305: 'argument': truncation from 'double' to 'const float'
+  SingleModeScene.cpp
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+c:\portfolio\pullthesticks-final\code\gtframework\nlcloth.h(33): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\portfolio\pullthesticks-final\code\gtframework\singlemodescene.cpp(115): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\singlemodescene.cpp(122): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\singlemodescene.cpp(159): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\singlemodescene.cpp(173): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\singlemodescene.cpp(179): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\singlemodescene.cpp(185): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\singlemodescene.cpp(191): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\singlemodescene.cpp(205): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\singlemodescene.cpp(211): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\singlemodescene.cpp(285): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\singlemodescene.cpp(291): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\singlemodescene.cpp(297): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\singlemodescene.cpp(303): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\singlemodescene.cpp(311): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\singlemodescene.cpp(317): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\singlemodescene.cpp(323): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\singlemodescene.cpp(329): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\portfolio\pullthesticks-final\code\gtframework\singlemodescene.cpp(433): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+c:\portfolio\pullthesticks-final\code\gtframework\singlemodescene.cpp(477): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+c:\portfolio\pullthesticks-final\code\gtframework\singlemodescene.cpp(495): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+c:\portfolio\pullthesticks-final\code\gtframework\singlemodescene.cpp(502): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+c:\portfolio\pullthesticks-final\code\gtframework\singlemodescene.cpp(514): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+c:\portfolio\pullthesticks-final\code\gtframework\singlemodescene.cpp(532): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+  Generating Code...
+NlGameFramework.rc(10): fatal error RC1015: cannot open include file 'afxres.h'.
+  

@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GtFramework">
+      <UniqueIdentifier>{e7159bda-63d0-408b-8e27-56220a9d7088}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AppLayer">
+      <UniqueIdentifier>{663ac0a9-0c38-4c54-aad0-b276e87b0028}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GtFramework\GtPresenter">
+      <UniqueIdentifier>{84537fa9-d3a1-4844-8812-7d4d4af9db8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GtFramework\header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="GtFramework\APIObject">
+      <UniqueIdentifier>{5a1787fe-918b-4f6c-9890-c0bff85e952c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mathlib">
+      <UniqueIdentifier>{920f3b4e-016d-4fd9-8961-0c3a0ad0156f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GtFramework\util">
+      <UniqueIdentifier>{ff21cef0-8155-4bc5-9612-83626c51c057}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GtFramework\SDKObjcet">
+      <UniqueIdentifier>{0e19f37f-7090-4850-8fce-9c01af0df07d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stableheader.cpp">
+      <Filter>GtFramework\header</Filter>
+    </ClCompile>
+    <ClCompile Include="framework.cpp" />
+    <ClCompile Include="NlPresenter.cpp">
+      <Filter>GtFramework\GtPresenter</Filter>
+    </ClCompile>
+    <ClCompile Include="NlRenderDevice.cpp">
+      <Filter>GtFramework\GtPresenter</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="prerequisite.h">
+      <Filter>GtFramework\header</Filter>
+    </ClInclude>
+    <ClInclude Include="stableheader.h">
+      <Filter>GtFramework\header</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderObject.h">
+      <Filter>GtFramework\APIObject</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferObject.h">
+      <Filter>GtFramework\APIObject</Filter>
+    </ClInclude>
+    <ClInclude Include="mathlib\quaternion.h">
+      <Filter>mathlib</Filter>
+    </ClInclude>
+    <ClInclude Include="mathlib\vector.h">
+      <Filter>mathlib</Filter>
+    </ClInclude>
+    <ClInclude Include="mathlib\math_def.h">
+      <Filter>mathlib</Filter>
+    </ClInclude>
+    <ClInclude Include="mathlib\matrix.h">
+      <Filter>mathlib</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>GtFramework\util</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshObject.h">
+      <Filter>GtFramework\SDKObjcet</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraObject.h">
+      <Filter>GtFramework\SDKObjcet</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureObject.h">
+      <Filter>GtFramework\APIObject</Filter>
+    </ClInclude>
+    <ClInclude Include="geo.h">
+      <Filter>mathlib</Filter>
+    </ClInclude>
+    <ClInclude Include="NlPresenter.h">
+      <Filter>GtFramework\GtPresenter</Filter>
+    </ClInclude>
+    <ClInclude Include="NlRenderDevice.h">
+      <Filter>GtFramework\GtPresenter</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,110 @@
+﻿生成启动时间为 2014/1/18 10:58:06。
+     1>项目“F:\Homework\图形编程\PullTheSticks\code\GtFramework\NlGFramework.vcxproj”在节点 2 上(build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(298,5): warning MSB8004: Intermediate 目录未以斜杠结尾。此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Intermediate 目录。
+     1>InitializeBuildStatus:
+         正在创建“Release\NlGFramework\NlGFramework.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\NlGFramework\\" /Fd"Release\NlGFramework\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Basket.cpp CameraObject.cpp DoubleModeScene.cpp Ground.cpp InputManager.cpp Keyboard.cpp Mouse.cpp NlBuffer.cpp NlCloth.cpp NlCollider.cpp NlColliderEvent.cpp NlDebugRenderer.cpp NlGameInstanceBase.cpp NlGameObjPri.cpp NlGameSceneBase.cpp NlGFramework.cpp NlGUIText.cpp NlGUITexture.cpp NlImmGUI.cpp NlJoint.cpp NlMaterial.cpp NlMesh.cpp NlObjMeshLoader.cpp NlPhysicsDevice.cpp NlPxReport.cpp NlPxMaterial.cpp NlPhysicsSimulator.cpp NlPxPicker.cpp NlPxUserData.cpp NlRenderDevice.cpp NlGameEnvironment.cpp NlGameObject.cpp NlPresenter.cpp NlRigidBody.cpp NlSkyBox.cpp NlTerrain.cpp NlTexture.cpp NlVertexDecl.cpp NlWater.cpp main.cpp NlDynamicShaderComb.cpp SrObjLoader.cpp stableheader.cpp Stream.cpp PullSticksApp.cpp MainMenu.cpp Stick.cpp SingleModeScene.cpp
+         Basket.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         CameraObject.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         DoubleModeScene.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         Ground.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         InputManager.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         Keyboard.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         Mouse.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         NlBuffer.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         NlCloth.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         NlCollider.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         NlColliderEvent.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         NlDebugRenderer.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         NlGameInstanceBase.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         NlGameObjPri.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         NlGameSceneBase.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         NlGFramework.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         NlGUIText.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         NlGUITexture.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         NlImmGUI.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         NlJoint.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         正在编译...
+         NlMaterial.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         NlMesh.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         NlObjMeshLoader.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         NlPhysicsDevice.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         NlPxReport.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\NlPxReport.h(15): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         NlPxMaterial.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         NlPhysicsSimulator.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         NlPxPicker.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         NlPxUserData.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         NlRenderDevice.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         NlGameEnvironment.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         NlGameObject.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         NlPresenter.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         NlRigidBody.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         NlSkyBox.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         NlTerrain.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         NlTexture.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         NlVertexDecl.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         NlWater.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         main.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         正在编译...
+         NlDynamicShaderComb.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         SrObjLoader.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         stableheader.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         Stream.cpp
+     1>Stream.cpp(9): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         PullSticksApp.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         MainMenu.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         Stick.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+         SingleModeScene.cpp
+     1>f:\homework\图形编程\pullthesticks\code\gtframework\prerequisite.h(17): fatal error C1083: 无法打开包括文件:“NxPhysics.h”: No such file or directory
+     1>已完成生成项目“F:\Homework\图形编程\PullTheSticks\code\GtFramework\NlGFramework.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.08

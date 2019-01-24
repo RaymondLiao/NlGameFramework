@@ -1,0 +1,17 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 27.12.2013 16:24:04
+
+newmtl glass
+	Ns 56.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Trans
+	Ka 0.7921 0.8705 0.9058
+	Kd 0.7921 0.7451 0.9058
+	Ks 1.0000 1.0000 1.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\GlassDiffuseMap.jpg
+	map_Kd maps\GlassDiffuseMap.jpg

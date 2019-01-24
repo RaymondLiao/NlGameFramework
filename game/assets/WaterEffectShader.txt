@@ -1,0 +1,181 @@
+//===============================
+// vs shader
+//===============================
+
+//-------------------------------
+// global variables
+//-------------------------------	
+float	   g_waveHei:			register(c0);
+float    g_waveLen:			register(c1);
+float    g_waveSpeed:		register(c2);
+float2 	 g_waveDir:  		register(c3);
+float2   g_waveoffset:	register(c4);
+
+float    g_time:				register(c5);
+float4	 g_distortion:  register(c6);
+
+float3 	 g_camPos:			register(c7);
+float4x4 g_worldMatVS:	register(c11);
+float4x4 g_vpMat:				register(c15);
+	
+//-------------------------------
+// vs input structer
+//-------------------------------
+struct VS_IN
+{
+	float3 vPosition: 		POSITION;
+	float3 vNormal:	 			NORMAL;
+	float2 vTexcoord: 		TEXCOORD;
+	float3 vTangent:			TANGENT;
+	float3 vWaveHeiScale: COLOR;
+};
+
+//-------------------------------
+// vs output structer
+//-------------------------------
+struct VS_OUTPUT
+{
+	float4 		vPosition:		POSITION;
+	float3 		vViewDirRev:	TEXCOORD0;
+	float2 		vBumpCoord0:	TEXCOORD1;
+	float2 		vBumpCoord1: 	TEXCOORD2;
+	float3x3 	mLMatForNorm:	TEXCOORD3;
+};
+
+//-------------------------------
+// vs main
+//-------------------------------
+VS_OUTPUT vs_main( const VS_IN input )
+{
+	VS_OUTPUT output = (VS_OUTPUT)0;
+	
+	float PI = 3.1415926;
+	float OneDivWL = 1/g_waveLen;
+	
+	float fSin, fCos;
+	float fAngle = frac( input.vTexcoord.x*g_waveDir.x +
+	input.vTexcoord.y*g_waveDir.y + g_time*g_waveSpeed )*2*PI*OneDivWL;
+	sincos( fAngle, fSin, fCos );
+	
+	fSin = fSin * (1-input.vWaveHeiScale.x) * 0.2;
+	fCos = fCos * (1-input.vWaveHeiScale.x) * 0.2;
+	
+	// calculate the vertex position
+	float3 wPos = mul( g_worldMatVS, float4(input.vPosition, 1) );
+	float3 wNorm = normalize( mul(g_worldMatVS, float4(input.vNormal, 1)) );
+	
+	float3 vNewPos;
+	vNewPos = wPos + fSin*g_waveHei*wNorm;
+	output.vPosition = mul( g_vpMat, float4(vNewPos, 1) );
+	
+	// create world_matrix for targent_space
+	float2 temp;
+	temp.x = fCos*g_waveHei*g_waveDir.x*2*PI*0.01;
+	temp.y = fCos*g_waveHei*g_waveDir.y*2*PI*0.01;
+
+	float3 vNormal   = normalize( float3(-temp.x, input.vNormal.y, -temp.y) );
+	float3 vTangent  = normalize( float3(input.vTangent.x, temp.y, input.vTangent.z) );
+	float3 vBinormal = normalize( cross(vNormal, vTangent) );
+	
+	output.mLMatForNorm[0] = vBinormal;
+	output.mLMatForNorm[1] = vNormal;
+	output.mLMatForNorm[2] = vTangent;
+	
+	// calculate view direction
+	output.vViewDirRev = normalize( g_camPos - mul(g_worldMatVS, float4(vNewPos, 1)).xyz );
+	
+	// set the bump texcoord
+	output.vBumpCoord0.xy = frac( g_time*g_distortion.xy ) + input.vTexcoord.xy;
+	output.vBumpCoord1.xy = frac( g_time*g_distortion.wz ) + input.vTexcoord.xy;
+	
+	return output;
+}
+
+//===============================
+// ps shader
+//===============================
+
+//-------------------------------
+// global variables
+//-------------------------------
+sampler2D 	g_bumpTex0: 	register(s0);
+sampler2D		g_bumpTex1: 	register(s1);
+samplerCUBE g_skyBox:			register(s2);
+sampler2D		g_reflTex:		register(s3);
+sampler2D   g_refrTex:		register(s4);
+
+float4   g_waterColor: 		 	register(c0);
+float4   g_waterSpecColor:  register(c1);
+float2	 g_wndResolution:		register(c2);
+float4x4 g_worldMatPS:		  register(c3);
+float4x4 g_viewMat:					register(c7);
+	
+//-------------------------------
+// ps input structer
+//-------------------------------
+struct PS_IN
+{
+	float3 		vViewDirRev:	TEXCOORD0;
+	float2 		vBumpCoord0:	TEXCOORD1;
+	float2 		vBumpCoord1: 	TEXCOORD2;
+	float3x3 	mLMatForNorm:	TEXCOORD3;
+	
+	float2 screenPos : VPOS;
+};
+
+//-------------------------------
+// ps output structer
+//-------------------------------
+struct PS_OUTPUT
+{
+	float4 vColor: COLOR;
+};
+
+//-------------------------------
+// ps main
+//-------------------------------
+PS_OUTPUT ps_main( const PS_IN input )
+{
+	PS_OUTPUT output = (PS_OUTPUT)0;
+	
+	// get disturbed normal from dump texture
+	float3 vNormal0 = tex2D( g_bumpTex0, input.vBumpCoord0 ).xyz;
+	float3 vNormal1 = tex2D( g_bumpTex1, input.vBumpCoord1 ).xyz;
+	float3 vNormal_l = normalize(float3(0, 0, -0.9) + (vNormal0 + vNormal1) * 0.5);
+	
+	// transform the normal to world space
+	float4x4 worldMatT = transpose( g_worldMatPS );
+	float3 vNormal_w = normalize( mul(vNormal_l, mul(input.mLMatForNorm, worldMatT)) ); 
+	
+	// transform the normal to camera space
+	float3 vNormal_v = normalize( mul(mul(input.mLMatForNorm, g_viewMat), float4(vNormal_l, 1)) );
+	
+	// calculate texcoord of full screen's texture
+	float2 envTexcoord = float2( input.screenPos.x/g_wndResolution.x,
+		input.screenPos.y/g_wndResolution.y );
+		
+	// normal's disturbance
+	float2 envTcdOffset = dot(vNormal_v.xz,
+		float2(0.01*g_wndResolution.x, 0.01*g_wndResolution.y) ) ;
+	envTexcoord.x += envTcdOffset;
+	
+	// get reflection & refraction texture's color
+	float4 reflTexColor = tex2D( g_reflTex, envTexcoord );
+	float4 refrTexColor = tex2D( g_refrTex, envTexcoord );
+	
+	// calculate this fragment's color
+	float vDotN = dot( input.vViewDirRev, vNormal_w );
+	float3 viewRefl = reflect( -input.vViewDirRev, vNormal_w );
+	
+	float4 reflColor = texCUBE( g_skyBox, viewRefl );
+	if (dot(reflTexColor, reflTexColor) != 0)
+		reflColor = reflTexColor;
+	float4 ambientColor = reflColor * 0.25;
+	float4 diffuseColor = lerp( g_waterColor, refrTexColor, 0.85 ) * vDotN;
+	
+	float fresnel = (1-vDotN) * 0.5;
+	float4 color = saturate( lerp(diffuseColor, reflColor, fresnel) + ambientColor );
+	float4 specColor = g_waterSpecColor * pow( reflColor.g, 8 ) * vDotN;
+	output.vColor = saturate( color + specColor );
+	return output;
+}

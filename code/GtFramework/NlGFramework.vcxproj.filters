@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="SrObjLoader.cpp" />
+    <ClCompile Include="stableheader.cpp" />
+    <ClCompile Include="CameraObject.cpp">
+      <Filter>Framework\Util\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Framework\Util\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Framework\Util\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Framework\Util\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="NlBuffer.cpp">
+      <Filter>Framework\API\RenderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="NlCollider.cpp">
+      <Filter>Framework\Component\PhysicsBase</Filter>
+    </ClCompile>
+    <ClCompile Include="NlDebugRenderer.cpp">
+      <Filter>Framework\Util\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="NlDynamicShaderComb.cpp">
+      <Filter>Framework\API\RenderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="NlGameEnvironment.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="NlGameInstanceBase.cpp">
+      <Filter>Framework\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="NlGameObject.cpp">
+      <Filter>Framework\Game\GameObjBase</Filter>
+    </ClCompile>
+    <ClCompile Include="NlGameObjPri.cpp">
+      <Filter>Framework\Game\GameObjBase</Filter>
+    </ClCompile>
+    <ClCompile Include="NlGFramework.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="NlMesh.cpp">
+      <Filter>Framework\Component\RenderBase</Filter>
+    </ClCompile>
+    <ClCompile Include="NlMaterial.cpp">
+      <Filter>Framework\Component\RenderBase</Filter>
+    </ClCompile>
+    <ClCompile Include="NlObjMeshLoader.cpp">
+      <Filter>Framework\Util\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="NlPhysicsDevice.cpp">
+      <Filter>Framework\API\PhysicsAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="NlPhysicsSimulator.cpp">
+      <Filter>Framework\API\PhysicsAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="NlPresenter.cpp">
+      <Filter>Framework\API\RenderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="NlPxMaterial.cpp">
+      <Filter>Framework\Component\PhysicsBase</Filter>
+    </ClCompile>
+    <ClCompile Include="NlPxPicker.cpp">
+      <Filter>Framework\Util\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="NlRenderDevice.cpp">
+      <Filter>Framework\API\RenderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="NlRigidBody.cpp">
+      <Filter>Framework\Component\PhysicsBase</Filter>
+    </ClCompile>
+    <ClCompile Include="NlSkyBox.cpp">
+      <Filter>Framework\Game\GameObjBase</Filter>
+    </ClCompile>
+    <ClCompile Include="NlTexture.cpp">
+      <Filter>Framework\API\RenderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="NlVertexDecl.cpp">
+      <Filter>Framework\API\RenderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="NlWater.cpp">
+      <Filter>Framework\Game\GameObjBase</Filter>
+    </ClCompile>
+    <ClCompile Include="NlTerrain.cpp">
+      <Filter>Framework\Game\GameObjBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Stream.cpp">
+      <Filter>Framework\Util\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="NlJoint.cpp">
+      <Filter>Framework\Component\PhysicsBase</Filter>
+    </ClCompile>
+    <ClCompile Include="NlPxUserData.cpp">
+      <Filter>Framework\API\PhysicsAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="NlGameSceneBase.cpp">
+      <Filter>Framework\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="NlPxReport.cpp">
+      <Filter>Framework\API\PhysicsAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="NlColliderEvent.cpp">
+      <Filter>Framework\API\PhysicsAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="NlGUIText.cpp">
+      <Filter>Framework\Component\GUIBase</Filter>
+    </ClCompile>
+    <ClCompile Include="NlImmGUI.cpp">
+      <Filter>Framework\Component\GUIBase</Filter>
+    </ClCompile>
+    <ClCompile Include="NlCloth.cpp">
+      <Filter>Framework\Component\PhysicsBase</Filter>
+    </ClCompile>
+    <ClCompile Include="NlGUITexture.cpp">
+      <Filter>Framework\Component\GUIBase</Filter>
+    </ClCompile>
+    <ClCompile Include="PullSticksApp.cpp">
+      <Filter>GameInstance</Filter>
+    </ClCompile>
+    <ClCompile Include="Basket.cpp">
+      <Filter>GameInstance\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Ground.cpp">
+      <Filter>GameInstance\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Stick.cpp">
+      <Filter>GameInstance\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleModeScene.cpp">
+      <Filter>GameInstance\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>GameInstance\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleModeScene.cpp">
+      <Filter>GameInstance\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="prerequisite.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SrObjLoader.h" />
+    <ClInclude Include="stableheader.h" />
+    <ClInclude Include="CameraObject.h">
+      <Filter>Framework\Util\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="GtFile.h">
+      <Filter>Framework\Util\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>Framework\Util\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Framework\Util\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Framework\Util\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Framework\Util\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="nl_physics_header.h">
+      <Filter>Framework\API\PhysicsAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="nl_render_header.h">
+      <Filter>Framework\API\RenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="NlCollider.h">
+      <Filter>Framework\Component\PhysicsBase</Filter>
+    </ClInclude>
+    <ClInclude Include="NlDebugRenderer.h">
+      <Filter>Framework\Util\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="NlDynamicShaderComb.h">
+      <Filter>Framework\API\RenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="NlBuffer.h">
+      <Filter>Framework\API\RenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="NlGameEnvironment.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="NlGameInstanceBase.h">
+      <Filter>Framework\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="NlGameObject.h">
+      <Filter>Framework\Game\GameObjBase</Filter>
+    </ClInclude>
+    <ClInclude Include="NlGameObjPri.h">
+      <Filter>Framework\Game\GameObjBase</Filter>
+    </ClInclude>
+    <ClInclude Include="NlGameSceneBase.h">
+      <Filter>Framework\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="NlGFramework.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="NlMaterial.h">
+      <Filter>Framework\Component\RenderBase</Filter>
+    </ClInclude>
+    <ClInclude Include="NlMesh.h">
+      <Filter>Framework\Component\RenderBase</Filter>
+    </ClInclude>
+    <ClInclude Include="NlObjMeshLoader.h">
+      <Filter>Framework\Util\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="NlPhysicsDevice.h">
+      <Filter>Framework\API\PhysicsAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="NlPhysicsSimulator.h">
+      <Filter>Framework\API\PhysicsAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="NlPresenter.h">
+      <Filter>Framework\API\RenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="nlPxMathlib.h">
+      <Filter>Framework\Util\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="NlPxPicker.h">
+      <Filter>Framework\Util\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="NlRenderDevice.h">
+      <Filter>Framework\API\RenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="NlRigidBody.h">
+      <Filter>Framework\Component\PhysicsBase</Filter>
+    </ClInclude>
+    <ClInclude Include="NlSkyBox.h">
+      <Filter>Framework\Game\GameObjBase</Filter>
+    </ClInclude>
+    <ClInclude Include="NlTexture.h">
+      <Filter>Framework\API\RenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="NlVertexDecl.h">
+      <Filter>Framework\API\RenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="NlTerrain.h">
+      <Filter>Framework\Game\GameObjBase</Filter>
+    </ClInclude>
+    <ClInclude Include="NlWater.h">
+      <Filter>Framework\Game\GameObjBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Stream.h">
+      <Filter>Framework\Util\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="NlPxMaterial.h">
+      <Filter>Framework\Component\PhysicsBase</Filter>
+    </ClInclude>
+    <ClInclude Include="NlJoint.h">
+      <Filter>Framework\Component\PhysicsBase</Filter>
+    </ClInclude>
+    <ClInclude Include="NlPxUserData.h">
+      <Filter>Framework\API\PhysicsAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="NlPxReport.h">
+      <Filter>Framework\API\PhysicsAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="NlColliderEvent.h">
+      <Filter>Framework\API\PhysicsAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="NlGUIText.h">
+      <Filter>Framework\Component\GUIBase</Filter>
+    </ClInclude>
+    <ClInclude Include="NlImmGUI.h">
+      <Filter>Framework\Component\GUIBase</Filter>
+    </ClInclude>
+    <ClInclude Include="NlCloth.h">
+      <Filter>Framework\Component\PhysicsBase</Filter>
+    </ClInclude>
+    <ClInclude Include="NlGUITexture.h">
+      <Filter>Framework\Component\GUIBase</Filter>
+    </ClInclude>
+    <ClInclude Include="PullSticksApp.h">
+      <Filter>GameInstance</Filter>
+    </ClInclude>
+    <ClInclude Include="Basket.h">
+      <Filter>GameInstance\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Ground.h">
+      <Filter>GameInstance\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Stick.h">
+      <Filter>GameInstance\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleModeScene.h">
+      <Filter>GameInstance\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>GameInstance\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleModeScene.h">
+      <Filter>GameInstance\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="NlGameFramework.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{4632341a-77ac-4365-b983-ad7069023be5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\API">
+      <UniqueIdentifier>{d8a2a696-2f2d-4205-a28d-2a3416ae4e4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Component">
+      <UniqueIdentifier>{01ef024c-101d-45ad-b256-17097811773e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Game">
+      <UniqueIdentifier>{5d7bcc5c-a342-485f-9389-4c86a86b8024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameInstance">
+      <UniqueIdentifier>{218518d4-4f32-4eac-b068-04baf19f0a21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\API\PhysicsAPI">
+      <UniqueIdentifier>{9afa4e8e-bf44-48ea-b7e9-41bf8cd302c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\API\RenderAPI">
+      <UniqueIdentifier>{d5abdd7f-713e-4c02-bfa4-c28d7a141eff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Component\PhysicsBase">
+      <UniqueIdentifier>{0c6c5dc4-96cd-4786-9377-5cb7d7c394db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Component\RenderBase">
+      <UniqueIdentifier>{a8dab99b-fb67-41ff-83fd-d00e11ccee13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Game\GameObjBase">
+      <UniqueIdentifier>{98e1f140-0916-4091-89f6-ba2953f129ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Util">
+      <UniqueIdentifier>{27d339ca-8a86-4f28-bdd8-372feb22f87b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Util\IO">
+      <UniqueIdentifier>{29ddeb0d-1c85-4fb5-83b3-7e43a5829cdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Util\Physics">
+      <UniqueIdentifier>{f4b0e1dd-48d5-475b-bd54-5ae591e87a75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Util\Render">
+      <UniqueIdentifier>{20dd4bae-4bdf-4cb8-acb3-777f40579f48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Component\GUIBase">
+      <UniqueIdentifier>{274938ff-dede-4dc8-9ee9-5cf4917b6799}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameInstance\Object">
+      <UniqueIdentifier>{9076eaee-2686-4a38-986d-e078636ccf9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameInstance\Scene">
+      <UniqueIdentifier>{be1e622b-e0d9-4e09-be72-a5c28ca0b992}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

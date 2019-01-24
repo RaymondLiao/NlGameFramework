@@ -1,0 +1,106 @@
+//===============================
+// vs shader
+//===============================
+
+//-------------------------------
+// global variables
+//-------------------------------
+float4x4 g_wvp :	    register(c0);
+float4x4 g_worldMat : register(c4);
+
+//-------------------------------
+// vs input structer
+//-------------------------------
+struct VS_INPUT
+{
+	float3 pos :      POSITION;
+	float2 texcoord : TEXCOORD;
+};
+
+//-------------------------------
+// vs output structer
+//-------------------------------
+struct VS_OUTPUT
+{
+	float4 pos :      POSITION;
+	float2 texcoord : TEXCOORD0;
+	float3 worldpos : TEXCOORD1;
+};
+
+//-------------------------------
+// vs main
+//-------------------------------
+VS_OUTPUT vs_main( const VS_INPUT input )
+{
+	VS_OUTPUT output = (VS_OUTPUT)0;
+	output.pos = mul( g_wvp, float4(input.pos.xyz, 1.0));
+
+	float3 worldpos = mul( g_worldMat, float4(input.pos, 1) ).xyz;
+	output.worldpos = worldpos;
+	
+	output.texcoord = input.texcoord;
+	
+	return output;
+};
+
+//===============================
+// ps shader
+//===============================
+
+//-------------------------------
+// global variables
+//-------------------------------
+float4x4 g_worldMatPs : register(c0);
+float3   g_lightDir : 	register(c4);
+float3   g_camPos :   	register(c5);
+
+sampler2D g_tex :     register(s0);
+sampler2D g_normMap : register(s1);
+	
+//-------------------------------
+// ps input structer
+//-------------------------------
+struct PS_INPUT
+{
+	float2 texcoord : TEXCOORD0;
+	float3 worldpos : TEXCOORD1;
+};
+
+//-------------------------------
+// ps output structer
+//-------------------------------
+struct PS_OUTPUT
+{
+	float4 color : COLOR0;
+};
+
+PS_OUTPUT ps_main( PS_INPUT input )
+{
+	PS_OUTPUT output = (PS_OUTPUT)0;
+	
+	// get vertex normal from normal map
+	float4 normTexture = tex2D( g_normMap, input.texcoord.xy );
+	float3 normSource;
+	normSource.x = normTexture.y*2 - 1.0;
+	normSource.y = normTexture.z*2 - 1.0;
+	normSource.z = normTexture.w*2 - 1.0;
+
+	float3 normal = mul( g_worldMatPs, float4(normSource, 1.0).xyz );
+	normal = normalize(-normal);	
+
+	// light calculation
+	float3 light = normalize(-g_lightDir);
+	float ndotl = saturate( dot(light, normal) );
+
+	float mtrl_ambient = 0.25;
+	
+	float3 colorrgb = ndotl * 1.0;
+	colorrgb += mtrl_ambient;
+	
+	float3 mtrl_diffuse = tex2D( g_tex, input.texcoord.xy );
+	colorrgb *= mtrl_diffuse;
+	
+	output.color = float4(colorrgb, 1.0);
+	
+	return output;
+};
